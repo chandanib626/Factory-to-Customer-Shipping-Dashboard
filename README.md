@@ -333,27 +333,32 @@ The dashboard is designed to answer questions such as:
 
 ---
 ### 10. Installation & Setup
-Clone the Repository
-git clone https://github.com/chandanib626/Factory-to-Customer-Shipping-Dashboard.git
-Navigate to the Project Directory
-cd Factory_to_customer_shipping_analysis
-Create a Virtual Environment
-macOS / Linux
-python3 -m venv venv
-source venv/bin/activate
-Windows
-python -m venv venv
-venv\Scripts\activate
-Install Dependencies
-pip install -r requirements.txt
+## Clone the Repository
 
-If a requirements.txt file is not available:
+- git clone https://github.com/chandanib626/Factory-to-Customer-Shipping-Dashboard.git
 
-pip install streamlit pandas numpy plotly matplotlib seaborn openpyxl
-Run the Dashboard
-streamlit run dashboard.py
+## Navigate to the Project Directory
+- cd Factory_to_customer_shipping_analysis
+  
+## Create a Virtual Environment
+# macOS / Linux
 
-The application will open in the browser through the local Streamlit server.
+- python3 -m venv venv
+- source venv/bin/activate
+  
+# Windows
+- python -m venv venv
+- venv\Scripts\activate
+# Install Dependencies
+- pip install -r requirements.txt
+
+- If a requirements.txt file is not available:
+
+- pip install streamlit pandas numpy plotly matplotlib seaborn openpyxl
+# Run the Dashboard
+- streamlit run dashboard.py
+
+- The application will open in the browser through the local Streamlit server.
 
 ## 11. Project Deliverables
 
