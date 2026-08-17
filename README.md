@@ -333,36 +333,7 @@ The dashboard is designed to answer questions such as:
 
 ---
 
-# 10. Dashboard Architecture
-
-```text
-                 Raw Dataset
-                      |
-                      v
-              Data Cleaning
-                      |
-                      v
-              Data Validation
-                      |
-                      v
-          Exploratory Data Analysis
-                      |
-                      v
-            Feature Engineering
-                      |
-                      v
-          Route & Performance Analysis
-                      |
-                      v
-            Interactive Visualizations
-                      |
-                      v
-             Streamlit Dashboard
-                      |
-                      v
-             Business Insights
-
-11. Project Structure
+### 11. Project Structure
 Factory_to_customer_shipping_analysis/
 │
 ├── Data/
@@ -447,3 +418,33 @@ Project Repository
 
 GitHub Repository:
 https://github.com/chandanib626/Factory-to-Customer-Shipping-Dashboard
+
+
+### . Dashboard Architecture
+
+```text
+                 Raw Dataset
+                      |
+                      v
+              Data Cleaning
+                      |
+                      v
+              Data Validation
+                      |
+                      v
+          Exploratory Data Analysis
+                      |
+                      v
+            Feature Engineering
+                      |
+                      v
+          Route & Performance Analysis
+                      |
+                      v
+            Interactive Visualizations
+                      |
+                      v
+             Streamlit Dashboard
+                      |
+                      v
+             Business Insights
