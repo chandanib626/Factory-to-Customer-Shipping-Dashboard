@@ -332,8 +332,80 @@ The dashboard is designed to answer questions such as:
 - How might data-quality issues affect interpretation?
 
 ---
+### 10. Installation & Setup
+Clone the Repository
+git clone https://github.com/chandanib626/Factory-to-Customer-Shipping-Dashboard.git
+Navigate to the Project Directory
+cd Factory_to_customer_shipping_analysis
+Create a Virtual Environment
+macOS / Linux
+python3 -m venv venv
+source venv/bin/activate
+Windows
+python -m venv venv
+venv\Scripts\activate
+Install Dependencies
+pip install -r requirements.txt
 
-# 10. Dashboard Architecture
+If a requirements.txt file is not available:
+
+pip install streamlit pandas numpy plotly matplotlib seaborn openpyxl
+Run the Dashboard
+streamlit run dashboard.py
+
+The application will open in the browser through the local Streamlit server.
+
+## 11. Project Deliverables
+
+The repository contains:
+
+Cleaned dataset
+Exploratory Data Analysis notebook
+Streamlit dashboard
+Executive Summary
+Project documentation
+Data-quality validation
+Interactive visualizations
+## 12 . Business Value
+
+This project demonstrates how raw operational data can be transformed into an interactive decision-support solution.
+
+The dashboard enables users to:
+
+Monitor shipping performance
+Compare factories
+Evaluate routes
+Analyze shipping modes
+Identify geographic trends
+Examine financial performance
+Detect data-quality issues
+Prioritize areas for further investigation
+## 13. Future Enhancements
+
+Potential improvements include:
+
+Machine Learning-based delivery delay prediction
+Actual transportation-distance analysis
+GPS-based route optimization
+Transportation cost analysis
+Real-time shipment tracking
+Automated anomaly detection
+Weather and traffic integration
+Predictive supply-chain analytics
+Automated business alerts
+Advanced geographic mapping
+## 14. Author
+
+Chandani Bharti
+
+Data Analytics | Python | SQL | Data Visualization | Streamlit
+
+Project Repository
+
+GitHub Repository:
+https://github.com/chandanib626/Factory-to-Customer-Shipping-Dashboard
+
+# 15. Dashboard Architecture
 
 ```text
                  Raw Dataset
