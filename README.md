@@ -401,16 +401,16 @@ Automated business alerts
 Advanced geographic mapping
 ## 14. Author
 
-Chandani Bharti
+# Chandani Bharti
 
 Data Analytics | Python | SQL | Data Visualization | Streamlit
 
-Project Repository
+# Project Repository
 
-GitHub Repository:
+## GitHub Repository:
 https://github.com/chandanib626/Factory-to-Customer-Shipping-Dashboard
 
-# 15. Dashboard Architecture
+## 15. Dashboard Architecture
 
 ```text
                  Raw Dataset
